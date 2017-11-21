@@ -24,7 +24,7 @@ public class DownloadDatafeed {
 
 		if (!file.exists()) {
 
-			System.out.println("文件不存在，开始下载!这是一个测试");
+			System.out.println("文件不存在，开始下载!这是一个测试,这还是个测试");
 
 			System.out.println(new Date());
 
