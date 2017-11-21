@@ -24,7 +24,7 @@ public class DownloadDatafeed {
 
 		if (!file.exists()) {
 
-			System.out.println("文件不存在，开始下载");
+			System.out.println("文件不存在，开始下载!这是一个测试");
 
 			System.out.println(new Date());
 
@@ -162,12 +162,7 @@ public class DownloadDatafeed {
 					+ (genderMap.get(brand).get("Toddler-Male") == null ? 0 : genderMap.get(brand).get("Toddler-Male").size()));
 		}
 
-		// for (Iterator iterator = category.iterator(); iterator.hasNext();) {
-		// String string = (String) iterator.next();
-		// System.out.println(string);
-		// }
 
-		// close buffered reader
 		br.close();
 
 	}
